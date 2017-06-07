@@ -33,5 +33,5 @@ All our products are handcrafted with special care with organic additives from l
 
 ### Visit Our Blogs
 
-Soap blog [Maroofsha soaps](http://www.maroofshasoaps.com/) Sewing Blog [Little bit sewing](http://littlebitsewing.com) 
-Food  blog [A vagrant diner](http://www.avagrantdiner.com/) Skincare Blog [Herbal skin soaks](http://herbalskinsoaks.blogspot.com) 
+Soap blog [Maroofsha soaps](http://www.maroofshasoaps.com/),  Sewing Blog [Little bit sewing](http://littlebitsewing.com),  
+Food  blog [A vagrant diner](http://www.avagrantdiner.com/),  Skincare Blog [Herbal skin soaks](http://herbalskinsoaks.blogspot.com) 
