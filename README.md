@@ -31,6 +31,7 @@ All our products are handcrafted with special care with organic additives from l
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maroofsha/maroofsha.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Our Blogs
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Soap blog [Maroofsha soaps](http://www.maroofshasoaps.com/) Sewing Blog [Little bit sewing](http://littlebitsewing.com) 
+Food  blog [A vagrant diner](http://www.avagrantdiner.com/) Skincare Blog [Herbal skin soaks](http://herbalskinsoaks.blogspot.com) 
