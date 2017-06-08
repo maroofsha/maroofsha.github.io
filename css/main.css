@@ -31,7 +31,7 @@ display:inline-block;
 text-align:center;
 text-decoration: none;
 color: white;
-background:#b30707;
+background:#dfa2c3;
 margin: 0;
 margin-right:5px; 
 width:100px;
@@ -48,7 +48,7 @@ top:40%;
 color: white;
 }
 .nav a:hover{
-background: #ff1774;
+background: #63dfe0;
 }
 
 footer ul li {
