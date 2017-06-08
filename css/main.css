@@ -7,8 +7,43 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    width: 100%;
+    overflow:hidden;
+    margin: 0;
+    text-align: center; 
 }
-nav ul li, footer ul li {
+
+
+.nav li{
+display: inline;
+margin: 0;
+}
+.nav li a{
+display:inline-block;
+text-align:center;
+text-decoration: none;
+color: white;
+background:#b30707;
+margin: 0;
+margin-right:5px; 
+width:100px;
+height:100px;
+border-radius: 400px; 
+-moz-border-radius: 400px;
+-webkit-border-radius: 400px;
+}
+.nav a span{
+position:relative;
+top:40%;
+}
+.nav li a:visited{
+color: white;
+}
+.nav a:hover{
+background: #ff1774;
+} 
+
+footer ul li {
     display: inline;
     margin-right: 20px;
 }
