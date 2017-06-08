@@ -20,37 +20,25 @@ title: MaroofSha, Entreprenuer
   <img src="http://i63.tinypic.com/vhu9ev.png"/>
    
 	
+	
+	
+	
+	
 	<html>
 <body>
-	<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSftcIOUYWnc9sR2pp_j-EJK3W1m6a7Fvh8H5HVQFZ-2_0QMjQ/viewform?embedded=true" 
-	width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-	
-	<form name="gform" id="gform" enctype="text/plain" action=" https://docs.google.com/forms/d/e/1FAIpQLSftcIOUYWnc9sR2pp_j-EJK3W1m6a7Fvh8H5HVQFZ-2_0QMjQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
-  First name:<br>
-  <input type="text" name="entry.2064255440" id="entry.2064255440"><br>
-  Last name:<br>
-  <input type="text" name="entry.1214121275" id="entry.1214121275">
-  Message:<br>
-  <input type="text" name="1597924381"> id="1597924381">
-
-  <input type="submit" value="Submit">
+		
+	<form id="contactform" method="POST">
+    <input type="text" name="name" placeholder="Your name">
+    <input type="email" name="_replyto" placeholder="Your email">
+    <input type="hidden" name="_subject" value="Website contact" />
+    <textarea name="message" placeholder="Your message"></textarea>
+    <input type="text" name="_gotcha" style="display:none" />
+    <input type="submit" value="Send">
 </form>
-
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
-
-
-<script src="assets/js/jquery.min.js"></script>
-<script type="text/javascript">var submitted=false;</script>
-<script type="text/javascript">
-$('#gform').on('submit', function(e) {
-  $('#gform *').fadeOut(2000);
-  $('#gform').prepend('Your submission has been processed...');
-  });
-	
-	
-	
-	
-	
+<script>
+    var contactform =  document.getElementById('contactform');
+    contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
+</script>
 	
 	<form action="https://formspree.io/kadithameludu@gmail.com"
       method="POST">
@@ -63,6 +51,10 @@ $('#gform').on('submit', function(e) {
 	</body>
 	</html>
 
+	
+	
+	
+	
 	
   <div><br /></div>
    <div><br /></div>
