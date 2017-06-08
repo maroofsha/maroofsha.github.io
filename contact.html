@@ -338,71 +338,160 @@ div#twist_blogger_cntct_form .clear-button {
    <div><br /></div>
 
   <style>
-  #Hr-17 {
-position:relative;
-list-style:none;
-margin:3px;
-padding:0;
-float:center;
+  #cssmenu,
+
+#cssmenu ul,
+
+#cssmenu ul li,
+
+#cssmenu ul li a,
+
+#cssmenu #menu-button {margin: 0;padding: 0;border: 0;list-style: none;line-height: 1;display: block;position: relative;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+#cssmenu:after,
+
+#cssmenu > ul:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+
+#cssmenu #menu-button {display: none;}
+
+#cssmenu {width: auto;font-family: Raleway, sans-serif;line-height: 1;}
+
+#cssmenu > ul {background: #3db2e1;}
+
+#cssmenu > ul > li {float: left;-webkit-perspective: 1000px;-moz-perspective: 1000px;perspective: 1000px;}
+
+#cssmenu.align-center > ul {font-size: 0;text-align: center;}
+
+#cssmenu.align-center > ul > li {display: inline-block;float: none;}
+
+#cssmenu.align-right > ul > li {float: right;}
+
+#cssmenu > ul > li > a {padding: 16px 20px;font-size: 14px;color: #ffffff;letter-spacing: 1px;text-transform: uppercase;text-decoration: none;background: #3db2e1;-webkit-transition: all .3s;-moz-transition: all .3s;
+
+  -o-transition: all .3s;transition: all .3s;-webkit-transform-origin: 50% 0;-moz-transform-origin: 50% 0;transform-origin: 50% 0;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;transform-style: preserve-3d;
+
 }
-#Hr-17 li {
-margin:5px;
-padding:0;
-float:left;
+
+#cssmenu > ul > li.active > a {color: #dff2fa;
+
 }
-#Hr-17 li a {
-display:inline;
-float:left;
-margin:0;
-padding:11px 14px;
-overflow:hidden;
-text-decoration:none;
-text-align:center;
-text-transform:capitalize;
-font-size:20px;
-font-weight:bold;
-border:1px ridge #DB7C08;
-text-shadow:0px -2px 1px #E4C31F,0px -1px 1px #E4C31d;
--moz-border-radius:20px 0px 20px 0px;
--webkit-border-radius:20px 0px 20px 0px;
-border-radius:20px 0px 20px 0px;
-color:#5F5F60;
--moz-box-shadow:6px 0px 0px 0px #DBB408;
--webkit-box-shadow:6px 0px 0px 0px #DBB408;
-box-shadow:6px 0px 0px 0px #DBB408;
-background:#63dfe0;
-background:-webkit-gradient(linear,left top,left bottom,from(#63dfe0),to(#dfa2c3));
-background:-webkit-linear-gradient(top,#63dfe0 0%,#dfa2c3 100%);
-background:-moz-linear-gradient(top,#63dfe0 0%,#dfa2c3 100%);
-background:-o-linear-gradient(top,#63dfe0 0%,#dfa2c3 100%);
-background:-ms-linear-gradient(top,#63dfe0 0%,#dfa2c3 100%);
-background:linear-gradient(top,#63dfe0 0%,#dfa2c3 100%);
--moz-transition:all 0.6s ease-out;
--webkit-transition:all 0.6s ease-out;
--o-transition:all 0.6s ease-out;
-transition:all 0.6s ease-out;
+
+#cssmenu > ul > li:hover > a,
+
+#cssmenu > ul > li > a:hover {color: #dff2fa;-webkit-transform: rotateX(90deg) translateY(-23px);-moz-transform: rotateX(90deg) translateY(-23px);transform: rotateX(90deg) translateY(-23px);
+
+  -ms-transform: none;
+
 }
-#Hr-17 li a:hover {
--moz-border-radius:25px 0px 25px 0px;
--webkit-border-radius:25px 0px 25px 0px;
-border-radius:25px 0px 25px 0px;
--moz-box-shadow:inset 0px 0px 50px 0px #dfa2c3;
--webkit-box-shadow:inset 0px 0px 50px 0px #dfa2c3;
-box-shadow:inset 0px 0px 50px 0px #dfa2c3;
-text-shadow:none;
--moz-transition:all 0.4s ease-in;
--webkit-transition:all 0.4s ease-in;
--o-transition:all 0.4s ease-in;
-transition:all 0.4s ease-in;
-}  
+
+#cssmenu > ul > li > a::before {position: absolute;top: 100%;left: 0;z-index: -1;-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;width: 100%;height: 100%;padding: 16px 20px;color: #dff2fa;background: #19799f;content: attr(data-title);
+
+  -webkit-transition: background 0.3s;-moz-transition: background 0.3s;transition: background 0.3s;-webkit-transform: rotateX(-90deg);-moz-transform: rotateX(-90deg);transform: rotateX(-90deg);
+
+  -webkit-transform-origin: 50% 0;-moz-transform-origin: 50% 0;transform-origin: 50% 0;-ms-transform: translateY(- -18px);
+
+}
+
+#cssmenu > ul > li:hover > a::before,
+
+#cssmenu > ul > li > a:hover::before { background: #3db2e1;}
+
+#cssmenu.small-screen {width: 100%;}
+
+#cssmenu.small-screen > ul,
+
+#cssmenu.small-screen.align-center > ul {
+
+  width: 100%;
+
+  text-align: left;
+
+}
+
+#cssmenu.small-screen > ul > li,
+
+#cssmenu.small-screen.align-center {
+
+  float: none;
+
+  display: block;
+
+  border-top: 1px solid rgba(100, 100, 100, 0.1);
+
+}
+
+#cssmenu.small-screen > ul > li:hover > a,
+
+#cssmenu.small-screen > ul > li > a:hover {
+
+  color: #dff2fa;
+
+  -webkit-transform: none;
+
+  -moz-transform: none;
+
+  transform: none;
+
+  -ms-transform: none;
+
+}
+
+#cssmenu.small-screen > ul > li > a::before {
+
+  display: none;
+
+}
+
+#cssmenu.small-screen #menu-button {
+
+  display: block;padding: 16px 20px;cursor: pointer;font-size: 14px;text-decoration: none;color: #ffffff;text-transform: uppercase;letter-spacing: 1px;background: #3db2e1;}
+
+#cssmenu.small-screen #menu-button:after {
+
+  content: "";position: absolute;right: 20px;top: 17px;display: block;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;border-top: 2px solid #ffffff;border-bottom: 2px solid #ffffff;width: 22px;height: 3px;
+
+}
+
+#cssmenu.small-screen #menu-button.menu-opened:after {
+
+  border-top: 2px solid #dff2fa;
+
+  border-bottom: 2px solid #dff2fa;
+
+}
+
+#cssmenu.small-screen #menu-button:before {
+
+  content: "";position: absolute;right: 20px;top: 27px;display: block;width: 22px;
+
+  height: 2px;
+
+  background: #ffffff;
+
+}
+
+#cssmenu.small-screen #menu-button.menu-opened:before {
+
+  background: #dff2fa;
+
+}
     </style>   
-<center><ul id="Hr-17">
-<li><a href="https://www.Facebook.com/maroofsha.5">Facebook</a></li>
-<li><a href="https://www.twitter.com/maroofsha2012">Twitter</a></li>
-<li><a href="https://plus.google.com/113866337591965664296">Google+</a></li>
-<li><a href="https://www.Facebook.com/maroofsha2012">Pinterest</a></li>
-<li><a href="https://www.Facebook.com/maroofsha">Instagram</a></li>
-</ul> </center>
+<center><div id='cssmenu'>
+
+<ul>
+
+   <li class='active'><a href='#'>Faceboo</a></li>
+
+   <li><a href='#'>Twitter</a></li>
+
+   <li><a href='#'>Google+</a></li>
+
+   <li><a href='#'>Piterest</a></li>
+ <li><a href='#'>istagram</a></li>
+
+</ul>
+
+</div></center>
    
     
 <div><br /></div>
