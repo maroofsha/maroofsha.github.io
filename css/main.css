@@ -1,14 +1,14 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color:#ffa715;
+    background-color:#dfa2c3;
 }
 footer ul {
     font-family:'Lucida Consol', 'Raleway', 'Nixie-one';
     font-size: 14px;
     padding: 0px;
     list-style: none;
-    color:#ffffff;
+    color:#dfa2c3;
     }
 
 
@@ -50,7 +50,7 @@ top:40%;
 color: #000;
 }
 .nav a:hover{
-background: #dfa2c3;
+background: #000;
 }
 
 footer ul li {
@@ -59,7 +59,7 @@ footer ul li {
 }
 a {
     text-decoration: none;
-    color: #dfa2c3;
+    color: #fff;
 }
 a:hover {
     text-decoration: underline;
