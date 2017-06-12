@@ -47,7 +47,7 @@ position:relative;
 top:40%;
 }
 .nav li a:visited{
-color: #fff;
+color: #000;
 }
 .nav a:hover{
 background: #dfa2c3;
