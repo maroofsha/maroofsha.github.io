@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
     background-color:#dfa2c3;
 }
 footer ul {
@@ -60,23 +60,24 @@ footer ul li {
 a {
     text-decoration: none;
     font-family: "Lucida Console";
+    font-size:16px;
     color: #000;
 }
 a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-family:'Sacramento', 'Oldenburg', 'Raleway';
     color:#ffffff;
 }
 h2 {
-    font-size: 2em;
-    font-family:'Lucida Consol';
+    font-size: 3em;
+    font-family:'Lucida Console';
     color:#ffffff;
 }
 p {
-    font-size: 1.5em;
+    font-size: 2em;
     line-height: 1.4em;
     color: #ffffff;
     font-family:'Josefin Slab';
