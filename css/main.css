@@ -20,7 +20,7 @@ overflow:hidden;
 .nav ul{
 margin: 0;
 padding: 0;
-font: bold 16px Lucida Consol;
+font: bold 16px Lucida Console;
 list-style-type: none;
 text-align: center; 
 }
@@ -32,8 +32,8 @@ margin: 0;
 display:inline-block;
 text-align:center;
 text-decoration: none;
-color: #63dfe0;
-background:#fff;
+color: #fff;
+background:#63dfe0;
 margin: 0;
 margin-right:5px; 
 width:100px;
@@ -47,10 +47,10 @@ position:relative;
 top:40%;
 }
 .nav li a:visited{
-color: #dfa2c3;
+color: #fff;
 }
 .nav a:hover{
-background: #fff;
+background: #dfa2c3;
 }
 
 footer ul li {
