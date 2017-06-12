@@ -4,10 +4,11 @@ body {
     background-color:#ffa715;
 }
 footer ul {
-    font-family:'Oldenburg', 'Raleway', 'Nixie-one';
+    font-family:'Lucida Consol', 'Raleway', 'Nixie-one';
     font-size: 14px;
     padding: 0px;
     list-style: none;
+    color:#ffffff;
     }
 
 
@@ -19,7 +20,7 @@ overflow:hidden;
 .nav ul{
 margin: 0;
 padding: 0;
-font: bold 14px Oldenburg;
+font: bold 16px Lucida Consol;
 list-style-type: none;
 text-align: center; 
 }
@@ -31,8 +32,8 @@ margin: 0;
 display:inline-block;
 text-align:center;
 text-decoration: none;
-color: white;
-background:#dfa2c3;
+color: #63dfe0;
+background:#fff;
 margin: 0;
 margin-right:5px; 
 width:100px;
@@ -46,10 +47,10 @@ position:relative;
 top:40%;
 }
 .nav li a:visited{
-color: white;
+color: #dfa2c3;
 }
 .nav a:hover{
-background: #63dfe0;
+background: #fff;
 }
 
 footer ul li {
@@ -66,11 +67,18 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Sacramento', 'Oldenburg', 'Raleway';
+    color:#ffffff;
+}
+h2 {
+    font-size: 2em;
+    font-family:'Lucida Consol';
+    color:#ffffff;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #ffffff;
+    font-family:'Josefin Slab';
 }
 footer {
     border-top: 1px solid #63dfe0;
