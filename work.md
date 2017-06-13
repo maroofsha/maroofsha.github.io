@@ -1,9 +1,11 @@
---- layout: default title: MaroofSha, Entreprenuer ---
+--- 
+layout: default 
+title: MaroofSha, Entreprenuer
+---
 
 <div class="blurb">
 
 <center>
-
 All of MaroofSha's products are Handcrafted with love &amp; care...
 
 # Our Journey (blogs)
