@@ -716,63 +716,13 @@ input:not([type=submit]):not([type=file]):focus, textarea:focus {
 	
 	
 
-	<!-- Contact Section -->
-                <div class='wrap contact grey' id='contact'>
-                    <div class='grid grid-pad'>
-                        <h2>Contact</h2>
-                        <div class='col-1-2'>
-                            <div class='content address'>
-                                <h3>Talk to us</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto fugit esse soluta quae debitis quibusdam harum voluptatem, maxime, aliquam sequi. Tempora ipsum magni unde velit corporis fuga, necessitatibus blanditiis.</p>
-                                <address>
-                                    <div>
-                                        <div class='box-icon'>
-                                            <i class='fa fa-map-marker'/>
-                                        </div>
-                                        <span>Address:</span>
-                                        <p>9983 City name, Street name, 232 Apartment C</p>
-                                    </div>
-                                    
-                                    <div>
-                                        <div class='box-icon'>
-                                            <i class='fa fa-clock-o'/>
-                                        </div>
-                                        <span>Work Time:</span>
-                                        <p>Monday - Friday from 9am to 5pm</p>
-                                    </div>
-                                    
-                                    <div>
-                                        <div class='box-icon'>
-                                            <i class='fa fa-phone'/>
-                                        </div>
-                                        <span>Phone:</span>
-                                        <p>595 12 34 567</p>
-                                    </div>                                  
-                                </address>
-                            </div>
-                        </div>
-                         <div class='col-1-2 pleft-25'>
-                            <div class='content contact-form'>
-							<b:section class='contact-form' id='contact-form' preferred='yes' showaddelement='no'>
-<b:widget id='ContactForm1' locked='false' title='Contact Form' type='ContactForm' visible='true'>
-  <b:includable id='main'>
-                                <form class='form' id='contactForm' name='contact-form'>
-					<form method="POST" action="http://formspree.io/kadithameludu@gmail.com">
-                                    <input class='comment-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' placeholder='Name* :' required='' type='text'/>
-                                    <input expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' placeholder='E-mail* :' required='' type='email'/>
-                                    <textarea class='required comment-text' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' placeholder='Message* :' required='' type='tel'/>
-                                    <input class='btn submit comment-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' style='visibility: visible;' type='submit'/>
-<div style='text-align: center; max-width: 222px; width: 100%'>
-          <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
-          <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
-        </div>
-                                </form>
-					</b:includable>
-</b:widget>
-</b:section>
+	<form method="POST" action="http://formspree.io/kadithameludu@gmail.com">
+<p style="display:inline;">Your Name:</p><input name="name" placeholder="Your Name" type="name"><br/>
+<p style="display:inline;">Your Email:</p><input name="email" placeholder="Your email" type="email"><br/>
+<p style="display:inline;">Your Message:</p><textarea name="message" placeholder="Your message"></textarea><br/>
+<button type="submit">Send</button>
+</form>
 
-							</div>
-</div></div></div>
 
 	
 	
