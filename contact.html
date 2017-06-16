@@ -7,32 +7,33 @@ title: maroofsha, Enterpreuner
 
 
 <style>
-html {
-    font-size: 62.5%;
+.wrap {
+    width: 100%;
 }
-body {
-    background-color: white;
-    color: black;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 1.4em; /* equiv 14px */
-    line-height: 1.5; /* adapt to your design */
+
+.floatleft {
+    float:left; 
+    width: 80%;
+    background-color: #ff0000;
+    height: 400px;
 }
-/* you shall not pass */
-div, textarea, table, td, th, code, pre, samp {
-    word-wrap: break-word;
+
+.floatright {
+float: right;
+    background-color: #00ff00;
+    height: 400px;
+    width: 20%;
 }
-.left {
-    float: left;
-}
-.w50 {
-    width: 50%;
-}
+
 </style>
 
 
 
-<div id="content">
-  <div class="left w50">LEFT</div>
-  <div class="left w50">lorem ipsum</div>
+<div class="wrap">
+    <div class="floatleft"></div>
+    <div class="floatright"></div>
+    <div style="clear: both;">
 </div>
+
+
 
