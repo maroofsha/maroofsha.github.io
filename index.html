@@ -584,11 +584,15 @@ float: right;
 	
 	<center>
 	
-	<form method="POST" action="http://formspree.io/kadithameludu@gmail.com">
-		<p>Name:</p><input name="email" placeholder="your email" type="email"><br/>
-		<p>Message:</p><textarea name="meaasge" placeholder="Your message"></textarea><br/>
-<button type="submit">Send</button>
+	<form action="https://getsimpleform.com/messages?form_api_token=45256dd5a8b5cc53a24dc9edd6818714" method="post">
+  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+  <!-- all your input fields here.... -->
+		<p>Name:</p><input type='text' name='test' />
+		<p>message:</p><input name='message' type='text' />
+  <input type='submit' value='Test form' />
 </form>
+
 
 	</center>
 	
