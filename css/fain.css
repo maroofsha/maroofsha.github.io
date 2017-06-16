@@ -6,17 +6,18 @@
 
 body {
     margin: 60px auto;
-    width: 80%;
-    background-color:#dfa2c3;
+  
 }
 
 .header{
     background-color:#e2adf4;
+     width: 100%;
 }
 
 
 .portfolio{
     background-color:#d41c1c;
+     width: 100%;
 }
 
 
@@ -67,7 +68,8 @@ background: #000;
 
 
 footer ul {
-   
+     width: 70%;
+    background-color:#5b5be5;
     font-family:'Lucida Consol', 'Raleway', 'Nixie-one';
     font-size: 14px;
     padding: 0px;
