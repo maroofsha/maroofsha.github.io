@@ -11,7 +11,7 @@ background-color:#dfa2c3;
 
 .header{
     
-     width: 100%;
+     width: 90%;
 }
 
 
@@ -23,7 +23,7 @@ background-color:#dfa2c3;
 .contact{
     
 .cover {
-    width: 100%;
+    width: 90%;
 }
 .floatleft {
     margin-top:10%;
@@ -87,8 +87,8 @@ background: #000;
 
 
 footer ul {
-     width: 100%;
-    background-color:#dab4f4;
+     width: 90%;
+    background-color:#DFA2C3;
     font-family:'Lucida Consol', 'Raleway', 'Nixie-one';
     font-size: 14px;
     padding: 0px;
