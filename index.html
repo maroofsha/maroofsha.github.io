@@ -529,265 +529,180 @@ margin-left: 1em;"><img border="0" height="314" src="http://i67.tinypic.com/173g
 	
 	
 	
-	<style>
-#contact-form body {
-  font-family: 'Lato', georgia;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(236, 181, 62, 0.95);
-  text-align: center;
-  font-weight: 300;
-  -webkit-font-smoothing: antialiased;
+	/**********************************************************
+Contact CSS
+**********************************************************/
+.contact {
+  padding-top: 0;
+	padding-bottom: 0
 }
 
-#contact-form {
-  max-width: 90%;
+.contact h2 {
+  text-align: center;
+      margin-top: 135px;
+}
+
+.contact .address h3 {
+  margin-top: 0;
+}
+
+address {
+  margin-top: 3em;
+}
+
+address div {
+  position: relative;
+  margin-top: 20px;
+}
+
+address i {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.address span {
+  line-height: 1.1;
+  margin-bottom: 3px;
+  color: #484f58;
+  font-size: 1.125em;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+} 
+
+.phone {
+  line-height: 30px;
+}
+
+.box-icon {
+    float: left;
+    font-size: 25px;
+    margin: 0 10px 0 0;
+    display: block;
+    padding: 26px;
+}
+
+.box-icon i {
+    color: #16a085;
+    padding: 14px;
+    background: #fff;
+    border-radius: 250px
+}
+
+/* Form, Comments and Contact */
+
+.comments, .form {
+  padding: 0em 3em;
+}
+
+.leave-comment {
+  width: 80%;
   margin: 0 auto;
 }
 
-label {
-  font-weight: 400;
-  cursor: pointer;
+.contact-form .form {
+  padding: 0;
 }
 
-textarea,
-input {
-  border: none;
+.comments {
+  margin: 0 0 1em;
+  text-align: left;
+}
+
+ul.nested-comments  ul li {
+  margin: 1em 3em;
+}
+
+.comment p {
+  margin-left: 76px;
+}
+
+.comment {
+  margin-bottom: 1em;
+  padding: 1em 0;
+}
+
+.comment-avatar {
+  float: left;
+  width: 60px;
+  height: auto;
+  margin-right: 1em;
+}
+
+.comment-meta span {
+  font-size: .8em;
+  color: #999;
+}
+
+.comment-meta .mid-sep {
+  padding: 0 2px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+/*border-radius*/
+  -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+          border-radius: 30px;
+}
+/* Inputs */
+
+input:not([type=submit]):not([type=file]), textarea {
+  width: 100% !important;
+  height: 50px;
+  margin-bottom: 25px;
+  padding: 0 15px 2px;
+  border: 2px solid #ebebeb;
+/*border-radius*/
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  background: white;
+  box-shadow: 0px 0px 0px 2px transparent;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+}
+
+input:not([type=submit]):not([type=file]):focus, textarea:focus {
+  border-color:#1abc9c;
   outline: none;
-  border-radius: 0;
-  text-align: center;
-  background: none;
-  font-weight: 700;
-  font-family: 'Lato', georgia;
-  font-size: 25px;
-  color: rgba(255, 255, 255, 1);
-  max-width: 90%;
-  padding: 1rem;
-  border: 2px dashed rgba(255, 255, 255, 0);
-  box-sizing: border-box;
-  cursor: text;
 }
 
 textarea {
-  text-align: left;
-  /* overflow:hidden; */
-  
-  resize: none;
-  width: 90%;
-  border-color: rgba(255, 255, 255, 0)
+  max-width: 100%;
+  min-height: 150px;
+  padding: 15px;
 }
 
-textarea:focus {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px dashed rgba(255, 255, 255, 1);
-}
-
-textarea:focus:required:valid {
-  border: 2px solid rgba(255, 255, 255, 0);
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-textarea:required:valid {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-input {
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
-}
-
-input:required,
-textarea:required {
-  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
-}
-
-input:focus {
-  border-bottom: 2px dashed rgba(255, 255, 255, 1);
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-input:required:valid {
-  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-}
-
-input:required:invalid {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-::-webkit-input-placeholder {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-:-moz-placeholder {
-  /* Firefox 18- */
-  
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-::-moz-placeholder {
-  /* Firefox 19+ */
-  
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-:-ms-input-placeholder {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.4);
-  font-style: italic;
-  font-weight: 400;
-}
-
-.expanding {
-  vertical-align: top;
-}
-
-.send-icn {
-  fill: rgba(255, 255, 255, 1)
-}
-
-.send-icn:hover {
-  fill: rgba(0, 0, 0, 1);
-  cursor: pointer;
-}
-
-button {
-  background: none;
-  border: none;
-  outline: none;
-  margin: 2vmax;
-}
-
-button:hover small {
-  opacity: 1;
-}
-
-small {
-  display: block;
-  opacity: 0;
-}
-
-.website {
-  opacity: 1;
-  font-size: 16px;
-  color: white;
+.submit {
+  font-size: 1.1em;
   position: relative;
-  text-align: center;
-  display: block;
-  margin-top: 7%;
-  
+  width: 190px;
+  height: 45px;
+  margin-bottom: 2em;
+  padding: 0;
+  cursor: pointer;
+  vertical-align: top;
+  border: 0;
+  float: right;
 }
 
-.website a {
-  color: white;
+.submit:active {
+  outline: none;
 }
 
-</style>
-
-<script>
-
-// Auto resize input
-function resizeInput() {
-    $(this).attr('size', $(this).val().length);
+.leave-comment {
+  margin-top: 3em;
 }
 
-$('input[type="text"], input[type="email"]')
-    // event handler
-    .keyup(resizeInput)
-    // resize on page load
-    .each(resizeInput);
-
-
-console.clear();
-// Adapted from georgepapadakis.me/demo/expanding-textarea.html
-(function(){
-  
-  var textareas = document.querySelectorAll('.expanding'),
-      
-      resize = function(t) {
-        t.style.height = 'auto';
-        t.style.overflow = 'hidden'; // Ensure scrollbar doesn't interfere with the true height of the text.
-        t.style.height = (t.scrollHeight + t.offset ) + 'px';
-        t.style.overflow = '';
-      },
-      
-      attachResize = function(t) {
-        if ( t ) {
-          console.log('t.className',t.className);
-          t.offset = !window.opera ? (t.offsetHeight - t.clientHeight) : (t.offsetHeight + parseInt(window.getComputedStyle(t, null).getPropertyValue('border-top-width')));
-
-          resize(t);
-
-          if ( t.addEventListener ) {
-            t.addEventListener('input', function() { resize(t); });
-            t.addEventListener('mouseup', function() { resize(t); }); // set height after user resize
-          }
-
-          t['attachEvent'] && t.attachEvent('onkeyup', function() { resize(t); });
-        }
-      };
-  
-  // IE7 support
-  if ( !document.querySelectorAll ) {
-  
-    function getElementsByClass(searchClass,node,tag) {
-      var classElements = new Array();
-      node = node || document;
-      tag = tag || '*';
-      var els = node.getElementsByTagName(tag);
-      var elsLen = els.length;
-      var pattern = new RegExp("(^|\\s)"+searchClass+"(\\s|$)");
-      for (i = 0, j = 0; i < elsLen; i++) {
-        if ( pattern.test(els[i].className) ) {
-          classElements[j] = els[i];
-          j++;
-        }
-      }
-      return classElements;
-    }
-    
-    textareas = getElementsByClass('expanding');
-  }
-  
-  for (var i = 0; i < textareas.length; i++ ) {
-    attachResize(textareas[i]);
-  }
-  
-})();
-
-
-</script>
+input:not([type=submit]):not([type=file]):focus, textarea:focus {
+  -webkit-animation: rubberBand 0.5s 1;
+     -moz-animation: rubberBand 0.5s 1;
+       -o-animation: rubberBand 0.5s 1;
+          animation: rubberBand 0.5s 1;
+}
 
 	
-	
-	
-	
-	
-	
-
-
-
-
-	
-	
-	
-	
-	<center>
-
-<form method="POST" action="http://formspree.io/kadithameludu@gmail.com">
-<p style="display:inline;">Your Name:</p><input name="name" placeholder="Your Name" type="name"><br/>
-<p style="display:inline;">Your Email:</p><input name="email" placeholder="Your email" type="email"><br/>
-<p style="display:inline;">Your Message:</p><textarea name="message" placeholder="Your message"></textarea><br/>
-<button type="submit">Send</button>
-</form>
-</center>	
 	
 	
 
@@ -795,6 +710,73 @@ console.clear();
 	
 	
 	
+
+
+	
+	
+	
+
+	<!-- Contact Section -->
+                <div class='wrap contact grey' id='contact'>
+                    <div class='grid grid-pad'>
+                        <h2>Contact</h2>
+                        <div class='col-1-2'>
+                            <div class='content address'>
+                                <h3>Talk to us</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores iusto fugit esse soluta quae debitis quibusdam harum voluptatem, maxime, aliquam sequi. Tempora ipsum magni unde velit corporis fuga, necessitatibus blanditiis.</p>
+                                <address>
+                                    <div>
+                                        <div class='box-icon'>
+                                            <i class='fa fa-map-marker'/>
+                                        </div>
+                                        <span>Address:</span>
+                                        <p>9983 City name, Street name, 232 Apartment C</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <div class='box-icon'>
+                                            <i class='fa fa-clock-o'/>
+                                        </div>
+                                        <span>Work Time:</span>
+                                        <p>Monday - Friday from 9am to 5pm</p>
+                                    </div>
+                                    
+                                    <div>
+                                        <div class='box-icon'>
+                                            <i class='fa fa-phone'/>
+                                        </div>
+                                        <span>Phone:</span>
+                                        <p>595 12 34 567</p>
+                                    </div>                                  
+                                </address>
+                            </div>
+                        </div>
+                         <div class='col-1-2 pleft-25'>
+                            <div class='content contact-form'>
+							<b:section class='contact-form' id='contact-form' preferred='yes' showaddelement='no'>
+<b:widget id='ContactForm1' locked='false' title='Contact Form' type='ContactForm' visible='true'>
+  <b:includable id='main'>
+                                <form class='form' id='contactForm' name='contact-form'>
+					<form method="POST" action="http://formspree.io/kadithameludu@gmail.com">
+                                    <input class='comment-name' expr:id='data:widget.instanceId + &quot;_contact-form-name&quot;' placeholder='Name* :' required='' type='text'/>
+                                    <input expr:id='data:widget.instanceId + &quot;_contact-form-email&quot;' placeholder='E-mail* :' required='' type='email'/>
+                                    <textarea class='required comment-text' expr:id='data:widget.instanceId + &quot;_contact-form-email-message&quot;' placeholder='Message* :' required='' type='tel'/>
+                                    <input class='btn submit comment-submit' expr:id='data:widget.instanceId + &quot;_contact-form-submit&quot;' expr:value='data:contactFormSendMsg' style='visibility: visible;' type='submit'/>
+<div style='text-align: center; max-width: 222px; width: 100%'>
+          <p class='contact-form-error-message' expr:id='data:widget.instanceId + &quot;_contact-form-error-message&quot;'/>
+          <p class='contact-form-success-message' expr:id='data:widget.instanceId + &quot;_contact-form-success-message&quot;'/>
+        </div>
+                                </form>
+					</b:includable>
+</b:widget>
+</b:section>
+
+							</div>
+</div></div></div>
+
+	
+	
+
 	
 	
 	
