@@ -6,24 +6,25 @@
 
 body {
     margin: 60px auto;
-background-color:#dfa2c3;  
+background-color:#dfa2c3; 
+     width: 90%;
 }
 
 .header{
     
-     width: 90%;
+    
 }
 
 
 .portfolio{
-        width: 80%;
+       
 }
 
 
 .contact{
     
 .cover {
-    width: 90%;
+   
 }
 .floatleft {
     margin-top:10%;
@@ -87,7 +88,7 @@ background: #000;
 
 
 footer ul {
-     width: 90%;
+     
     background-color:#DFA2C3;
     font-family:'Lucida Consol', 'Raleway', 'Nixie-one';
     font-size: 14px;
