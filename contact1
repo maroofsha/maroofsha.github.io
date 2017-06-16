@@ -1,23 +1,85 @@
-.wrap {
+---
+layout: befault
+title: maroofsha, Enterpreuner
+---
+<div class="blurb">
+
+<style>
+.cover {
     width: 100%;
 }
-
 .floatleft {
+    margin-top:10%;
+    margin-bottom:50px;
     float:left; 
-    width: 80%;
-    background-color: #dfa2ce;
-    height: 400px;
-}
-
-.floatright {
-float: right;
+    width: 50%;
     background-color: #63dfe0;
-    height: 400px;
-    width: 20%;
+    height: auto;
 }
+.floatright {
+    margin-top:10%;
+    margin-bottom:50px;
+float: right;
+    background-color: #fff;
+    height: auto;
+    width: 50%;
+}
+</style>
 
-<div class="wrap">
-    <div class="floatleft"></div>
-    <div class="floatright"></div>
-    <div style="clear: both;">
-</div>
+
+
+<div class="cover">
+    <div class="floatleft">
+        
+        
+        
+           
+                <center>
+                    
+                    <h2>Let's Get In Touch!</h2>
+                <hr color="#000" width="10%" /> 
+                <p>We'd love to hear from you. Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                   
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.twitter_username }}</p>
+            </a>
+      
+                    <a href="mailto:{{ site.email }}">
+            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.email }}</p>
+            </a>
+             
+          <a href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.github_username }}</p>
+            </a>
+                    </div>
+
+</center>        
+        
+        
+     <center>   
+    <div class="floatright">
+         <h2 style="color:#000;">Let's Get In Touch!</h2>
+                <hr color="#63dfe0" width="10%" /> 
+                <p style="color:#000;">We'd love to hear from you. Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                   
+            <a href="https://twitter.com/{{ site.twitter_username }}">
+                <i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.twitter_username }}</p>
+            </a>
+      
+                    <a href="mailto:{{ site.email }}">
+            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.email }}</p>
+            </a>
+             
+          <a href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                <p>{{ site.github_username }}</p>
+            </a>  </center>
+    </div></div>
+  
+
+</div><!-- /.blurb -->
