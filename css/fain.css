@@ -21,6 +21,26 @@ background-color:#dfa2c3;
 
 
 .contact{
+    
+.cover {
+    width: 100%;
+}
+.floatleft {
+    margin-top:10%;
+    margin-bottom:50px;
+    float:left; 
+    width: 50%;
+    background-color: #63dfe0;
+    height: auto;
+}
+.floatright {
+    margin-top:10%;
+    margin-bottom:50px;
+float: right;
+    background-color: #fff;
+    height: auto;
+    width: 50%;
+}
 }
 
 
