@@ -1,0 +1,98 @@
+body {
+    margin: 60px auto;
+    width: 100%;
+    background-color:#dfa2c3;
+}
+footer ul {
+   
+    font-family:'Lucida Consol', 'Raleway', 'Nixie-one';
+    font-size: 14px;
+    padding: 0px;
+    list-style: none;
+    color:#dfa2c3;
+    }
+
+
+
+.nav{
+width: 80%;
+overflow:hidden;
+}
+.nav ul{
+margin: 0;
+padding: 0;
+font: bold 16px Josefin Slab;
+list-style-type: none;
+text-align: center; 
+}
+.nav li{
+display: inline;
+margin: 0;
+}
+.nav li a{
+display:inline-block;
+text-align:center;
+text-decoration: none;
+color: #fff;
+background:#63dfe0;
+margin: 0;
+margin-right:5px; 
+width:100px;
+height:100px;
+border-radius: 400px; 
+-moz-border-radius: 400px;
+-webkit-border-radius: 400px;
+}
+.nav a span{
+position:relative;
+top:40%;
+}
+.nav li a:visited{
+color: #fff;
+}
+.nav a:hover{
+background: #000;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    font-family: "Lucida Console";
+    font-size:16px;
+    color: #000;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3.5em;
+    font-family:'Sacramento', 'Oldenburg', 'Raleway';
+    color:#ffffff;
+}
+h2 {
+    font-size: 3em;
+    font-family:'Lucida Console';
+    color:#ffffff;
+}
+p {
+    font-size: 2em;
+    line-height: 1.4em;
+    color: #ffffff;
+    font-family:'Josefin Slab';
+}
+footer {
+    border-top: 1px solid #63dfe0;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
