@@ -3,30 +3,36 @@ layout: default
 title: maroofsha, Enterpreuner
 ---
 
-.wrap {
-    width: 100%;
-}
 
-.floatleft {
-    float:left; 
-    width: 80%;
-    background-color: #000;
-    height: 400px;
-}
 
-.floatright {
-float: right;
-    background-color: #fff;
-    height: 400px;
-    width: 20%;
-}
 
-<div class="wrap">
-    <div class="floatleft"></div>
-    <div class="floatright"></div>
-    <div style="clear: both;">
+<style>
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: white;
+    color: black;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.4em; /* equiv 14px */
+    line-height: 1.5; /* adapt to your design */
+}
+/* you shall not pass */
+div, textarea, table, td, th, code, pre, samp {
+    word-wrap: break-word;
+}
+.left {
+    float: left;
+}
+.w50 {
+    width: 50%;
+}
+</style>
+
+
+
+<div id="content">
+  <div class="left w50">LEFT</div>
+  <div class="left w50">lorem ipsum</div>
 </div>
-
-
-
 
