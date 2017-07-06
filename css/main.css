@@ -544,22 +544,22 @@ div#Social_Icons_Top {
 
 
 
-.nav{
+.bav{
 width: 100%;
 overflow:hidden;
 }
-.nav ul{
+.bav ul{
 margin: 0;
 padding: 0;
 font: bold 16px Josefin Slab;
 list-style-type: none;
 text-align: center; 
 }
-.nav li{
+.bav li{
 display: inline;
 margin: 0;
 }
-.nav li a{
+.bav li a{
 display:inline-block;
 text-align:center;
 text-decoration: none;
@@ -573,14 +573,14 @@ border-radius: 400px;
 -moz-border-radius: 400px;
 -webkit-border-radius: 400px;
 }
-.nav a span{
+.bav a span{
 position:relative;
 top:40%;
 }
-.nav li a:visited{
+.bav li a:visited{
 color: #fff;
 }
-.nav a:hover{
+.bav a:hover{
 background: #000;
 }
 
